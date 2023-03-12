@@ -1,0 +1,168 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.flex-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+  
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 200px;
+}
+
+.header {
+  display:flex;
+  padding: 0 30px;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  
+}
+
+.navbar p {
+  color: white;
+  font-size: 13px;
+  padding: 0 10px;
+}
+
+.btn {
+  padding: 10px 15px;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-wrapper {
+  margin: 0 5px;
+}
+
+.log-in {
+  padding: 9px 12px;
+  margin: 0 0 0 10px;
+  font-size: 13px;
+  color: white;
+  background-color: black;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+.signup {
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+}
+
+.signup:hover {
+  background-color: green;
+  /* opacity: 0.5; */
+}
+
+/* .signup[ggg=''] */
+
+.body {
+  padding: 0 24.7188px;
+  display: flex;
+  margin: 0 0 20px; 
+  justify-content: space-between;
+  background-color: darkgrey;
+}
+  
+.body h1 {
+  margin-bottom:0 0 10px;
+  display: flex;
+  /* text-align: ; */
+  padding: 0px 10px;
+  font-size: 44px;
+  background-color: darkgrey;
+}
+
+.body p {
+  width: 50%;
+  text-align: left;
+  font-size: 20px;
+}
+  
+
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 0px 23px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 26px;
+  margin: 24px 0px;
+  /* padding: 50px 50px; */
+}
+
+.footer h2 {
+  font-size: 36px;
+  margin: 27px 0px 10px;
+}
+
+.footer .signup{
+  font-size: 20px;
+  margin: 10px 10px 10px 0px;
+  padding: 14px 40px;
+  border-radius: 3px;
+}
+
+.footer-list {
+  flex-wrap: wrap;
+  color: green;
+}
+
+.footer-list a {
+  width: 25%;
+  text-align: left;
+}
+
+.bahasa {
+  width:fit-content;
+}
+
+.bahasa select {
+  padding:8px 12px;
+  margin: 0;
+  border: 2px solid grey;
+  border-radius: 150px;
+}
+
+.footer-about {
+  padding:20px;
+  background-color:black;
+  color: white;
+}
+
+.about,.question {
+  width: fit-content;
+  
+}
+
+.footer-about * {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,41 @@
+.movie-poster h1:first-child {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .movie-poster h2 {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .movie-poster h3 {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .movie-card {
+    position: relative;
+    width: 100%;
+    
+  }
+  
+  .movie-poster {
+    position: relative;
+  }
+  
+  .movie-poster img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .movie-card {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: center;
+  }
+  
